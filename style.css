@@ -1,0 +1,79 @@
+
+body {
+  background: #EB9532;
+  width: auto;
+  color: #323232;
+}
+
+h1 {
+  width: 80%;
+  margin:0em 0em 0em 0em;
+  padding: .5em 0 .5em 0;
+  background-color: #9B59B6;
+  border-radius: 50px;
+  position: fixed;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+  -moz-transition: text-shadow 20ms;
+  -o-transition: text-shadow 20ms;
+  -webkit-transition: text-shadow 20ms;
+  transition: text-shadow 20ms;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+}
+
+h1 .top {
+  font-weight: 100;
+  font-size: 2.1rem;
+}
+
+h1 .shadow {
+  font-size: 4.5rem;
+  font-family: 'Raleway';
+  line-height: 40px;
+}
+h1 .color {
+  color: #6C7A89;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.1rem;
+  -webkit-text-stroke: 1px rgba(108, 122, 137, 0.5);
+}
+.resume {
+  position: scroll;
+  margin-top: 10rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.shadow2 {
+  background-color: #68C3A3;
+  margin: .5em 2em 1em 2.5em;
+  border-radius: 33px;
+  text-align:justify;
+  font-size: 24px;
+  word-spacing: 20px; 
+  text-shadow: 0.5em 0.1em 0.7em black;
+}
+.shadow2 .glass {
+  background-color: #049372;
+  border-radius: 25px;
+  margin-left: .5em;
+  margin-right: .5em;
+  text-shadow: none;
+}
+
+.resume ul {
+  text-shadow: 0.5em 0.1em 0.7em black;
+  text-align:left;
+  font-size: 24px;
+}
+.resume li {
+  text-align:left;
+  font-size: 18px;
+  text-shadow: none;
+  word-spacing: 0px;
+}
+
