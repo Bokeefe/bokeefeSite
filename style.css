@@ -5,6 +5,10 @@ body {
   color: #323232;
 }
 
+a {
+  color:#9B59B6;
+}
+
 h1 {
   width: 80%;
   margin:0em 0em 0em 0em;
