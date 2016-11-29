@@ -65,6 +65,16 @@ h1 .color {
   text-shadow: none;
 }
 
+.faker {
+  background-color: #68C3A3;
+  margin: .5em 27% .5em 27%;
+  border-radius: 33px;
+  text-align:center;
+  font-size: 48px;
+  word-spacing: 60px; 
+  text-shadow: 0.5em 0.1em 0.7em black;
+}
+
 .resume ul {
   text-shadow: 0.5em 0.1em 0.7em black;
   text-align:left;
