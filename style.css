@@ -1,49 +1,49 @@
 
 body {
-  background: #EB9532;
+  background: #87D37C;
   width: auto;
   color: #323232;
 }
 
 a {
-  color:#9B59B6;
+  color:#F89406;
 }
-.container {
+.container-fluid {
   position: fixed;
-  opacity: .7;
   width: 100%;
   height: 160px;
-  background-color: #EB9532;
-  margin: 0 auto;
+  background-color:  #F9BF3B;
+  margin: -180px auto;
   left: 0;
   right: 0;
 }
-h1 {
-  margin:-20px 0 0 0;
-  opacity: 1;
+.col-lg-2 {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.row .col-lg-8{
+  margin: 70px 0 0 0;
   text-align: center;
-  padding: .5em 0 .5em 0;
   font-family: 'Raleway', sans-serif;
-  font-size: 62px;
-
+  font-size: 63px;
+  line-height: 30px;
 }
-.nothing{
-    padding: 5px 5px 5px 5px;
-}
-
-h1 .top {
-  font-size: 2.8rem;
-  align-content: center;
-}
-h1 .color {
-  color: #6C7A89;
+.row .col-lg-8 .color{
+  margin:-20px 0 0 0;
+  text-align: center;
+  color: #F89406;
   font-family: 'Raleway', sans-serif;
-  font-size: 2.8rem;
+  font-size: 29px;
 }
-h1 .shadow {
-  font-size: 4.5rem;
-  font-family: 'Raleway';
-  line-height: 40px;
+.row .col-lg-8 .top{
+  margin:-20px 0 0 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 29px;
 }
 
 .resume {
@@ -53,7 +53,7 @@ h1 .shadow {
 }
 
 .shadow2 {
-  background-color: #68C3A3;
+  background-color: #F9BF3B;
   margin: .5em 2em 1em 2.5em;
   border-radius: 33px;
   text-align:justify;
@@ -61,12 +61,12 @@ h1 .shadow {
   word-spacing: 20px; 
 }
 .shadow2 .glass {
-  background-color: #049372;
+  background-color: #F89406;
   border-radius: 25px 25px 0 0;
 }
 
 .faker {
-  background-color: #68C3A3;
+  background-color: #F9BF3B;
   margin: .5em 27% .5em 27%;
   border-radius: 33px;
   text-align:center;
@@ -84,4 +84,12 @@ h1 .shadow {
   text-shadow: none;
   word-spacing: 0px;
 }
-.hitcounter {display: show;}
+.navbar-inverse {
+  position: fixed;
+  background-color: #F89406;
+  margin: 0 0 0 -15px;
+  width:100%;
+      border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
