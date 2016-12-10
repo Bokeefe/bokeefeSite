@@ -24,6 +24,12 @@ a {
   border: 0;
   font-size: 24px;
 }
+.dropdown-menu>li>a {
+  background-color: #F9BF3B;
+  color:#F89406;
+  border: 0;
+  color:grey;
+}
 
 .row{
   margin:-180px 0 0 0;
