@@ -48,7 +48,7 @@ body > div:nth-child(1) > span > p{
   } 
 
 
-@media (max-width: 540px){
+@media (max-width: 600px){
   body{
     font-size: 12px;
   }
@@ -114,7 +114,7 @@ body > div:nth-child(1) > span > p{
     color: #fff; 
     background-color: #4E2B40;
   }
-@media (max-width: 540px){
+@media (max-width: 600px){
   #section1 > div > div {
     font-size: 1em;
     letter-spacing:1em;
@@ -161,7 +161,7 @@ body > div:nth-child(1) > span > p{
     color: #fff;
     background-color:#8E7C93;
   }
-  @media (max-width: 540px){
+  @media (max-width: 600px){
 
   #section2 > div { /* big div*/
     font-size: 1em;
@@ -209,7 +209,7 @@ body > div:nth-child(1) > span > p{
     background-image: none
   }
   
-@media (max-width: 540px){
+@media (max-width: 600px){
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: auto;
