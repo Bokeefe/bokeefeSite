@@ -2,7 +2,6 @@ body {
   position: relative; 
   background-color: #C49B33;
   background-image: url("./grex.svg");
-
   font-weight: 100;
   font-size:24px;
 }
@@ -24,6 +23,7 @@ a:hover {
 a:active {
   color: #C49B33;
 }
+
 .affix {
   top:0;
   width: 100%;
@@ -80,28 +80,28 @@ body > div:nth-child(1) > img {
   transform: scale(-1, 1);
 }
 @media (max-width: 700px){
-  body{
-    font-size: 12px;
-  }
-  body > div:nth-child(1) > img{
-    height: 100%;
-    width: 100%;
-  }
-  body > div:nth-child(1) > span > h1{
-    margin: 20px 0 0 0;
-    font-size: 2.7rem;
-    font-weight: 100;
-    line-height: 0px;
-  }
-  body > div:nth-child(1) > span > h3{
-    font-size: 2.5rem;
-    font-style: bold;
-  }
-  body > div:nth-child(1) > span > p{
-    font-size: 1.7rem;
-    line-height: 4px;
-    font-weight: 200;
-  }
+        body{
+          font-size: 12px;
+        }
+        body > div:nth-child(1) > img{
+          height: 100%;
+          width: 100%;
+        }
+        body > div:nth-child(1) > span > h1{
+          margin: 20px 0 0 0;
+          font-size: 2.7rem;
+          font-weight: 100;
+          line-height: 0px;
+        }
+        body > div:nth-child(1) > span > h3{
+          font-size: 2.5rem;
+          font-style: bold;
+        }
+        body > div:nth-child(1) > span > p{
+          font-size: 1.7rem;
+          line-height: 4px;
+          font-weight: 200;
+        }
 }
 #section3 > h1 {
   letter-spacing: 5px;
@@ -120,8 +120,8 @@ body > div:nth-child(1) > span {
 #section1 > div {
   margin: auto;
   width: 80%;
+  padding:10px;
   font-size: 18px;
-  background-color: ;
   border: 1px solid white;
   border-radius: 10px 10px 10px 10px;
 }
@@ -135,6 +135,7 @@ body > div:nth-child(1) > span {
   color: #fff; 
   background-color: #4E2B40;
 }
+
 @media (max-width: 600px){
   #section1 > div > div {
     font-size: 1em;
@@ -169,7 +170,14 @@ body > div:nth-child(1) > span {
 #section2 > div > span {
   font-size: 18px;
 }
+#section2 > div > img {
+  padding: 15px;
+  float:left;
+  width:50%;
+  height: auto;
+}
 #section2 > div > iframe {
+  padding: 15px;
   float:left;
   width:50%;
 }
@@ -196,6 +204,10 @@ body > div:nth-child(1) > span {
   }
   #section2 > div > iframe {
     width:100%;
+  }
+  #section2 > div > img {
+    width:100%;
+    height: auto;
   }
 }
 
