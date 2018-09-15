@@ -1,7 +1,7 @@
 body {
-  position: relative; 
-  background-color: #C49B33;
-  background-image: url("./grex.svg");
+  background-attachment: fixed;
+  background-image: url("./assets/grex.svg");
+  background-position: fixed;
   font-weight: 100;
   font-size:24px;
 }
@@ -11,7 +11,7 @@ body > div {
 a:link {
   font-weight: 400;
   font-size:26px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   color:#C49B33;
 }
 a:visited {
@@ -79,6 +79,13 @@ body > div:nth-child(1) > img {
   -webkit-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
+ul {
+  font-weight: 300;
+}
+li {
+  font-weight: 100;
+}
+
 @media (max-width: 700px){
         body{
           font-size: 12px;
@@ -181,10 +188,12 @@ body > div:nth-child(1) > span {
   float:left;
   width:50%;
 }
-
+#section2 > div: > span > p {
+  letter-spacing: 3em;
+}
 #section2 > h1 {
   font-weight: 100;
-  letter-spacing: 20px;
+  letter-spacing: 30px;
 }
 #section2 {
   padding-top:50px;
